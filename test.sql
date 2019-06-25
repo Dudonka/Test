@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июн 25 2019 г., 16:14
+-- Время создания: Июн 25 2019 г., 16:22
 -- Версия сервера: 5.7.23
 -- Версия PHP: 5.6.38
 
@@ -72,11 +72,11 @@ CREATE TABLE `comments` (
 
 INSERT INTO `comments` (`id`, `author`, `text`, `article_id`, `pubdate`) VALUES
 (1, 'test', 'testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest\r\n\r\ntesttesttesttesttesttesttesttest\r\ntesttesttesttesttesttesttesttesttest', 12, '2019-06-25 11:49:43'),
-(2, 'admin', 'Text', 12, '2019-06-25 12:04:03'),
+(2, 'admin', 'Text', 13, '2019-06-25 12:04:03'),
 (3, 'admin', 'Test', 2, '2019-06-25 12:33:39'),
 (4, 'test', 'Комментарий', 1, '2019-06-25 18:31:34'),
 (5, 'user1', 'Комментарий из различных слов, созданный в целях проверки.', 16, '2019-06-25 18:46:25'),
-(6, 'user1', '123333123', 19, '2019-06-25 20:05:30');
+(6, 'user1', '123333123', 18, '2019-06-25 20:05:30');
 
 -- --------------------------------------------------------
 
